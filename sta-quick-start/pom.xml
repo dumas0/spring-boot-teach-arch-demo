@@ -14,7 +14,11 @@
     <groupId>com.dumas.sta</groupId>
     <artifactId>sta-quick-start</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+
+    <name>sta-quick-start</name>
+    <description>
+        My First SpringBoot Project
+    </description>
 
     <dependencies>
         <dependency>
