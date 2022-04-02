@@ -19,6 +19,7 @@
         <module>sta-quick-start</module>
         <module>sta-detailed-configuration</module>
         <module>sta-thymeleaf</module>
+        <module>sta-jdbc-template</module>
     </modules>
 
 </project>

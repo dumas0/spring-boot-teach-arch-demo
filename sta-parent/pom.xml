@@ -44,6 +44,7 @@
         <spring-boot.version>2.3.9.RELEASE</spring-boot.version>
         <spring-boot-admin.version>2.3.0</spring-boot-admin.version>
 
+        <lombok.version>1.18.22</lombok.version>
     </properties>
 
     <!--依赖管理-->
@@ -57,7 +58,13 @@
     </dependencies>
 
     <dependencyManagement>
-
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 
     <distributionManagement>
@@ -88,7 +95,8 @@
                         <encoding>UTF-8</encoding>
                         <compilerArguments>
                             <verbose/>
-                            <bootclasspath>${java.home}/lib/rt.jar${path.separator}${java.home}/lib/jce.jar</bootclasspath>
+                            <bootclasspath>${java.home}/lib/rt.jar${path.separator}${java.home}/lib/jce.jar
+                            </bootclasspath>
                         </compilerArguments>
                     </configuration>
                 </plugin>
