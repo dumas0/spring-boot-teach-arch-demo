@@ -18,6 +18,7 @@
     <modules>
         <module>sta-quick-start</module>
         <module>sta-detailed-configuration</module>
+        <module>sta-thymeleaf</module>
     </modules>
 
 </project>

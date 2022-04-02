@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+# thymeleaf cache close [remark: inline open]
+spring:
+  thymeleaf:
+    cache: false
