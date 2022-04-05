@@ -12,6 +12,7 @@
 
     <groupId>com.dumas.sbta</groupId>
     <artifactId>sbta-thymeleaf</artifactId>
+    <packaging>jar</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>sbta-thymeleaf</name>
