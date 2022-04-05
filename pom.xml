@@ -5,24 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.dumas.sta</groupId>
-        <artifactId>sta-parent</artifactId>
+        <groupId>com.dumas.sbta</groupId>
+        <artifactId>sbta-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.dumas.sta</groupId>
-    <artifactId>spring-teach-arch-demo</artifactId>
+    <groupId>com.dumas.sbta</groupId>
+    <artifactId>spring-boot-teach-arch-demo</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
 
     <modules>
-        <module>sta-quick-start</module>
-        <module>sta-detailed-configuration</module>
-        <module>sta-thymeleaf</module>
-        <module>sta-jdbc-template</module>
-        <module>sta-data-jpa</module>
-        <module>sta-mybatis</module>
-        <module>sta-tk-mybatis</module>
+        <module>sbta-quick-start</module>
+        <module>sbta-detailed-configuration</module>
+        <module>sbta-thymeleaf</module>
+        <module>sbta-jdbc-template</module>
+        <module>sbta-data-jpa</module>
+        <module>sbta-mybatis</module>
+        <module>sbta-tk-mybatis</module>
     </modules>
 
 </project>
