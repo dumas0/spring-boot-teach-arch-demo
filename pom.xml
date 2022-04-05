@@ -21,6 +21,7 @@
         <module>sta-thymeleaf</module>
         <module>sta-jdbc-template</module>
         <module>sta-data-jpa</module>
+        <module>sta-mybatis</module>
     </modules>
 
 </project>
