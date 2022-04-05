@@ -22,6 +22,7 @@
         <module>sta-jdbc-template</module>
         <module>sta-data-jpa</module>
         <module>sta-mybatis</module>
+        <module>sta-tk-mybatis</module>
     </modules>
 
 </project>

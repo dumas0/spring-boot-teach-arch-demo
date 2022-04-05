@@ -1,7 +1,11 @@
-package com.dumas.sta.mybatis.entity;
+package com.dumas.sta.tk.mybatis.entity;
 
 import lombok.*;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
@@ -13,10 +17,13 @@ import java.io.Serializable;
 @Setter
 @ToString
 @NoArgsConstructor
+@Table(name = "t_user")
 public class User implements Serializable {
 
-    private static final long serialVersionUID = 8534989293915837593L;
+    private static final long serialVersionUID = 7204799162111571057L;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String username;
     private String password;
