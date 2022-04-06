@@ -26,6 +26,7 @@
         <module>sbta-redis-lettuce</module>
         <module>sbta-redis-cache</module>
         <module>sbta-rabbitmq</module>
+        <module>sbta-actuator</module>
     </modules>
 
 </project>
