@@ -23,6 +23,8 @@
         <module>sbta-data-jpa</module>
         <module>sbta-mybatis</module>
         <module>sbta-tk-mybatis</module>
+        <module>sbta-redis-lettuce</module>
+        <module>sbta-redis-cache</module>
     </modules>
 
 </project>
