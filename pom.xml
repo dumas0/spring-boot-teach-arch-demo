@@ -25,6 +25,7 @@
         <module>sbta-tk-mybatis</module>
         <module>sbta-redis-lettuce</module>
         <module>sbta-redis-cache</module>
+        <module>sbta-rabbitmq</module>
     </modules>
 
 </project>
