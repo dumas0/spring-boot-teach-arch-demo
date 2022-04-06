@@ -2,6 +2,7 @@ package com.dumas.sbta.tk.mybatis.mapper;
 
 import com.dumas.sbta.tk.mybatis.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.BaseMapper;
 
 /**
@@ -17,5 +18,5 @@ public interface UserMapper extends BaseMapper<User> {
      * @param username 用户名
      * @return 统计结果
      */
-    int countByUsername(String username);
+    int countByUsername(@Param("username") String username);
 }
