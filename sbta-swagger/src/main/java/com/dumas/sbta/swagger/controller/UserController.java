@@ -1,7 +1,6 @@
 package com.dumas.sbta.swagger.controller;
 
 import com.dumas.sbta.swagger.entity.User;
-import com.dumas.starter.swagger.properties.ApiDataType;
 import com.dumas.starter.swagger.properties.ApiParamType;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -18,7 +17,7 @@ import org.springframework.web.bind.annotation.*;
 @Slf4j
 @RestController
 @RequestMapping("/users")
-@Api(tags = "1.0", description = "用户管理", value = "用户管理")
+@Api(tags = "1.0", value = "用户管理")
 public class UserController {
 
     @GetMapping

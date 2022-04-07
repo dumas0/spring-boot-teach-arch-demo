@@ -5,15 +5,15 @@ swagger:
   enable: true
   api-info:
     description: sbta-swagger
-    license: sbta-swagger
-    license-url: xx
+    license: MulanPSL2
+    license-url: http://license.coscl.org.cn/MulanPSL2
     terms-of-service-url: xx
     title: sbta-swagger
     version: 1.0.0
     contact:
       name: dumas
-      url: xx
-      email: xx
+      url: https://dumasz.github.io
+      email: xxx@gmail.com
   docket:
     base-package: com.dumas.sbta
     group-name: sbta-swagger
