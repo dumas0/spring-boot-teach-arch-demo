@@ -1,4 +1,4 @@
-package com.dumas.framework.swagger.properties;
+package com.dumas.starter.swagger.properties;
 
 import java.io.Serializable;
 

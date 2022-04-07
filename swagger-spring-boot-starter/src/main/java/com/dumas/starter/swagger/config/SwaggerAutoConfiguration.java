@@ -1,9 +1,9 @@
-package com.dumas.framework.swagger.config;
+package com.dumas.starter.swagger.config;
 
-import com.dumas.framework.swagger.properties.ApiInfoProperties;
-import com.dumas.framework.swagger.properties.Contact;
-import com.dumas.framework.swagger.properties.DocketProperties;
-import com.dumas.framework.swagger.properties.SwaggerProperties;
+import com.dumas.starter.swagger.properties.ApiInfoProperties;
+import com.dumas.starter.swagger.properties.Contact;
+import com.dumas.starter.swagger.properties.DocketProperties;
+import com.dumas.starter.swagger.properties.SwaggerProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
