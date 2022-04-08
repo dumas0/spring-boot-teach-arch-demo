@@ -42,11 +42,11 @@
 
         <!-- spring -->
         <spring-boot.version>2.3.9.RELEASE</spring-boot.version>
-        <spring-boot-admin.version>2.3.0</spring-boot-admin.version>
+        <spring-boot-admin.version>2.6.5</spring-boot-admin.version>
 
         <mybatis.version>2.2.2</mybatis.version>
 
-        <tk.mybatis.version>4.2.1</tk.mybatis.version>
+        <tk-mybatis.version>4.2.1</tk-mybatis.version>
         <pagehelper.version>1.4.1</pagehelper.version>
 
         <fastjson.version>1.2.80</fastjson.version>
@@ -98,7 +98,7 @@
             <dependency>
                 <groupId>tk.mybatis</groupId>
                 <artifactId>mapper-spring-boot-starter</artifactId>
-                <version>${tk.mybatis.version}</version>
+                <version>${tk-mybatis.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
@@ -110,6 +110,17 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
+                <version>${spring-boot-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <version>${spring-boot-admin.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

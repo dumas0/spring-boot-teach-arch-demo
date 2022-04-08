@@ -28,6 +28,7 @@
         <module>sbta-swagger</module>
         <module>sbta-rabbitmq</module>
         <module>sbta-actuator</module>
+        <module>sbta-admin</module>
     </modules>
 
 </project>
