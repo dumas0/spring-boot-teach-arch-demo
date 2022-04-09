@@ -30,6 +30,7 @@
         <module>sbta-actuator</module>
         <module>sbta-admin</module>
         <module>sbta-schedule</module>
+        <module>sbta-exception-handler</module>
     </modules>
 
 </project>
