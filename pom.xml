@@ -29,6 +29,7 @@
         <module>sbta-rabbitmq</module>
         <module>sbta-actuator</module>
         <module>sbta-admin</module>
+        <module>sbta-schedule</module>
     </modules>
 
 </project>
