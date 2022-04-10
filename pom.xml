@@ -23,8 +23,7 @@
         <module>sbta-data-jpa</module>
         <module>sbta-mybatis</module>
         <module>sbta-tk-mybatis</module>
-        <module>sbta-redis-lettuce</module>
-        <module>sbta-redis-cache</module>
+        <module>sbta-redis</module>
         <module>sbta-swagger</module>
         <module>sbta-rabbitmq</module>
         <module>sbta-actuator</module>
@@ -32,6 +31,7 @@
         <module>sbta-schedule</module>
         <module>sbta-exception-handler</module>
         <module>sbta-validate</module>
+        <module>sbta-cache-lock</module>
     </modules>
 
 </project>
