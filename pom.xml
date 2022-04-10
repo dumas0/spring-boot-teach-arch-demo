@@ -36,7 +36,7 @@
         <module>sbta-websocket</module>
         <module>sbta-shiro</module>
         <module>sbta-redislimter</module>
-
+        <module>sbta-localdatetime</module>
         <module>sbta-retry</module>
     </modules>
 
