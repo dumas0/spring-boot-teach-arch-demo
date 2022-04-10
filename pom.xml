@@ -31,6 +31,7 @@
         <module>sbta-admin</module>
         <module>sbta-schedule</module>
         <module>sbta-exception-handler</module>
+        <module>sbta-validate</module>
     </modules>
 
 </project>
