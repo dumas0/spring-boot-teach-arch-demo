@@ -32,6 +32,7 @@
         <module>sbta-exception-handler</module>
         <module>sbta-validate</module>
         <module>sbta-cache-lock</module>
+        <module>sbta-liquibase</module>
     </modules>
 
 </project>

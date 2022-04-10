@@ -49,6 +49,8 @@
         <tk-mybatis.version>4.2.1</tk-mybatis.version>
         <pagehelper.version>1.4.1</pagehelper.version>
 
+        <liquibase.version>4.9.1</liquibase.version>
+
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
 
@@ -110,6 +112,13 @@
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${pagehelper.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-core</artifactId>
+                <version>${liquibase.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.alibaba</groupId>
