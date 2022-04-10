@@ -51,6 +51,8 @@
 
         <liquibase.version>4.9.1</liquibase.version>
 
+        <shiro.version>1.9.0</shiro.version>
+
         <fastjson.version>1.2.80</fastjson.version>
         <guava.version>31.1-jre</guava.version>
         <spring-retry.version>1.3.2</spring-retry.version>
@@ -118,6 +120,22 @@
                 <groupId>org.liquibase</groupId>
                 <artifactId>liquibase-core</artifactId>
                 <version>${liquibase.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-core</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-spring</artifactId>
+                <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.shiro</groupId>
+                <artifactId>shiro-ehcache</artifactId>
+                <version>${shiro.version}</version>
             </dependency>
 
             <dependency>

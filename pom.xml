@@ -34,6 +34,7 @@
         <module>sbta-cache-lock</module>
         <module>sbta-liquibase</module>
         <module>sbta-websocket</module>
+        <module>sbta-shiro</module>
 
         <module>sbta-retry</module>
     </modules>

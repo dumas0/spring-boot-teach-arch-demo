@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/test")
-public class TestController {
-    //  一定要注入接口，通过接口去调用方法
+public class RetryController {
     @Autowired
     private RetryService retryService;
 

@@ -35,6 +35,8 @@ public class RetryServiceImpl implements RetryService {
 
     /**
      * 最终重试失败处理
+     * 1）@Recover的方法中的参数异常类型需要与重试方法中一致
+     * 2）该方法的返回值类型与重试方法保持一致
      *
      * @param e
      * @return
