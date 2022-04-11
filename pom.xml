@@ -22,7 +22,6 @@
         <module>sbta-jdbc-template</module>
         <module>sbta-data-jpa</module>
         <module>sbta-mybatis</module>
-        <module>sbta-tk-mybatis</module>
         <module>sbta-redis</module>
         <module>sbta-swagger</module>
         <module>sbta-rabbitmq</module>
