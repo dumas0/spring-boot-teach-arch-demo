@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: sbta-admin-client
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-components: always
+
+# 日志文件
+logging:
+  file:
+    path: ./target/sbta-admin-client.log

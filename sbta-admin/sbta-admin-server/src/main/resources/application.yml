@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /
+  endpoint:
+    health:
+      show-details: always
+
+spring:
+  boot:
+    admin:
+      ui:
+        title: sbta-admin server monitor
+        brand: <span>Service Monitoring Center</span>
+  application:
+    name: sbta-admin-server
+  security:
+    user:
+      name: admin
+      password: admin
+
+logging:
+  file:
+    path: ./target/sbta-admin-server.log
+

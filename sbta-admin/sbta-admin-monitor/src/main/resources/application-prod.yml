@@ -1,0 +1,15 @@
+spring:
+  security:
+    user:
+      name: dumas
+      password: dumas
+  boot:
+    admin:
+      client:
+        username: dumas
+        password: dumas
+        instance:
+          metadata:
+            user:
+              name: dumas
+              password: dumas

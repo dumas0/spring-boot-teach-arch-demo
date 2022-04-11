@@ -14,7 +14,7 @@ import java.util.*;
 
 /**
  * @author dumas
- * @desc TODO
+ * @desc TODO 认证领域
  * @date 2022/04/10 22:23
  */
 @Configuration

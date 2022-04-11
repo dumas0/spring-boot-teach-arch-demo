@@ -1,0 +1,34 @@
+server:
+  port: 8080
+
+info:
+  blog-url: https://dumasz.github.io
+  author: dumas
+  version: @project.version@
+  name: @project.artifactId@
+
+logging:
+  file:
+    path: ./target/sbta-admin-monitor.log
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+      instance:
+        prefer-ip: true
+  application:
+    name: sbta-admin-monitor
+  profiles:
+    active: prod
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /
+  endpoint:
+    health:
+      show-details: always
