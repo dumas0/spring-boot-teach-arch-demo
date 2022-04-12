@@ -50,6 +50,7 @@
         <pagehelper.version>1.4.1</pagehelper.version>
 
         <liquibase.version>4.9.1</liquibase.version>
+        <flyway.version>8.5.7</flyway.version>
 
         <shiro.version>1.9.0</shiro.version>
 
@@ -125,6 +126,11 @@
                 <groupId>org.liquibase</groupId>
                 <artifactId>liquibase-core</artifactId>
                 <version>${liquibase.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-core</artifactId>
+                <version>${flyway.version}</version>
             </dependency>
 
             <dependency>

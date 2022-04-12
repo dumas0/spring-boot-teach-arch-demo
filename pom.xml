@@ -37,6 +37,7 @@
         <module>sbta-redislimter</module>
         <module>sbta-localdatetime</module>
         <module>sbta-retry</module>
+        <module>sbta-flyway</module>
     </modules>
 
 </project>
