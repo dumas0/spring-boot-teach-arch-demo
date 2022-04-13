@@ -38,6 +38,7 @@
         <module>sbta-localdatetime</module>
         <module>sbta-retry</module>
         <module>sbta-flyway</module>
+        <module>sbta-unit-test</module>
     </modules>
 
 </project>
