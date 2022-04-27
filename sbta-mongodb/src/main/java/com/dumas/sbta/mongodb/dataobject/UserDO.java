@@ -4,7 +4,7 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.sql.Date;
+import java.time.LocalDate;
 
 /**
  * 用户
@@ -13,7 +13,7 @@ import java.sql.Date;
  * @date 2022/04/27 2:56 PM
  */
 @Data
-@Document(collation = "User")
+@Document(collection = "User")
 public class UserDO {
 
     @Data
@@ -41,7 +41,7 @@ public class UserDO {
     /**
      * 创建时间
      */
-    private Date createTime;
+    private LocalDate createTime;
     /**
      * 用户信息
      */
