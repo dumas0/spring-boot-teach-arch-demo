@@ -4,7 +4,6 @@ import com.dumas.starter.swagger.properties.ApiInfoProperties;
 import com.dumas.starter.swagger.properties.Contact;
 import com.dumas.starter.swagger.properties.DocketProperties;
 import com.dumas.starter.swagger.properties.SwaggerProperties;
-import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -17,7 +16,6 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @author dumas
