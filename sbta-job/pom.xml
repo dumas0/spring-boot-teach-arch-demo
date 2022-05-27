@@ -23,5 +23,6 @@
     <modules>
         <module>sbta-job-spring-task</module>
         <module>sbta-job-quartz-memory</module>
+        <module>sbta-job-quartz-jdbc</module>
     </modules>
 </project>

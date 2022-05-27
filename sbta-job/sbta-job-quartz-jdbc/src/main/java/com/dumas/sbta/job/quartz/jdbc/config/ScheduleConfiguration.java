@@ -1,7 +1,7 @@
-package com.dumas.sbta.job.quartz.memory.config;
+package com.dumas.sbta.job.quartz.jdbc.config;
 
-import com.dumas.sbta.job.quartz.memory.job.DemoJob01;
-import com.dumas.sbta.job.quartz.memory.job.DemoJob02;
+import com.dumas.sbta.job.quartz.jdbc.job.DemoJob01;
+import com.dumas.sbta.job.quartz.jdbc.job.DemoJob02;
 import org.quartz.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

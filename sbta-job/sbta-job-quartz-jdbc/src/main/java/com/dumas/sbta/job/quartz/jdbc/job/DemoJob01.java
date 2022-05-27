@@ -1,6 +1,6 @@
-package com.dumas.sbta.job.quartz.memory.job;
+package com.dumas.sbta.job.quartz.jdbc.job;
 
-import com.dumas.sbta.job.quartz.memory.service.DemoService;
+import com.dumas.sbta.job.quartz.jdbc.service.DemoService;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.slf4j.Logger;
@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author dumas
  * @date 2022/05/27 2:05 PM
  */
-public class Demo01Job extends QuartzJobBean {
+public class DemoJob01 extends QuartzJobBean {
 
     private Logger logger = LoggerFactory.getLogger(getClass());
 
