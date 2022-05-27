@@ -1,0 +1,25 @@
+spring:
+  # Quartz 的配置，对应 QuartzProperties 配置类
+  quartz:
+    # Job 存储器类型。默认为 memory 表示内存，可选 jdbc 使用数据库。
+    job-store-type: memory
+    # Quartz 是否自动启动
+    auto-startup: true
+    # 延迟 N 秒启动
+    startup-delay: 0
+    # 应用关闭时，是否等待定时任务执行完成。默认为 false ，建议设置为 true
+    wait-for-jobs-to-complete-on-shutdown: true
+    # 是否覆盖已有 Job 的配置
+    overwrite-existing-jobs: false
+    # 添加 Quartz Scheduler 附加属性，更多可以看 http://www.quartz-scheduler.org/documentation/2.4.0-SNAPSHOT/configuration.html 文档
+    properties:
+      org:
+        quartz:
+          threadPool:
+            # 线程池大小。默认为 10 。
+            threadCount: 25
+            # 线程优先级
+            threadPriority: 5
+            # 线程池类型
+            class: org.quartz.simpl.SimpleThreadPool
+#    jdbc: # 这里暂时不说明，使用 JDBC 的 JobStore 的时候，才需要配置
