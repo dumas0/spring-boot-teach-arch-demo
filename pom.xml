@@ -38,6 +38,8 @@
         <module>sbta-localdatetime</module>
         <module>sbta-retry</module>
         <module>sbta-mongodb</module>
+        <module>sbta-httpclient-tools</module>
+        <module>sbta-job</module>
 
         <module>sbta-starter</module>
     </modules>
