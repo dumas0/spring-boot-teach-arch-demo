@@ -40,6 +40,7 @@
         <module>sbta-mongodb</module>
         <module>sbta-httpclient-tools</module>
         <module>sbta-job</module>
+        <module>sbta-multi-thread</module>
 
         <module>sbta-starter</module>
     </modules>
